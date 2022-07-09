@@ -1,0 +1,21 @@
+<form [formGroup]="loginForm">
+
+  <div>
+      <label for="userName">
+        User Name
+      </label>
+      <input id="userName" type="text" formControlName="userName">
+  </div>
+
+  <div>
+      <label for="password">
+        Password
+      </label>
+      <input id="password" type="text" formControlName="password">
+  </div>
+
+  <button class="button" type="submit">Login</button>
+
+</form>
+<br/>
+<a routerLink = "/register" >Register</a>
